@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.card{
+  background-color: #fff;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  letter-spacing: 1px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2{
+  font-family: "IBM Plex Serif" , serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+span{
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.form{
+  outline: none;
+  border-bottom: 2px solid #222;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 8px;
+  width: 400px;
+  border-radius: 4px;
+  color: #222;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 600 ;
+  letter-spacing: 1px;
+
+}
+
+.pagination{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  max-width: 350px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.pagination p{
+  font-size: 17px;
+  letter-spacing: 1px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pagination button{
+  background: #222;
+  color: #fff;
+  padding: 12px 18px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  border-radius: 4px;
 }
